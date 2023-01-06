@@ -17,7 +17,7 @@
 <body>
   
   <header>
-    <nav style="background-color: blue;">
+    <nav id="navigation">
       <div class="wrapper">
         <img src="./assests/img/logo.svg" alt="">
         <ul>
@@ -26,13 +26,16 @@
           <li>Skills</li>
           <li>Portfólio</li>
           <li>Contatos</li>
-          <li><div></div></li>
-          <li>
+          <li class="pipe"><div></div></li>
+          <li class="contact-nav">
             <a href=""><img src="./assests/img/whatsapp_nav_icon.svg" alt=""></a>
-            <span>Entre em contato</span>
-            <span>(31) 9579-0332</span>
+            <div>
+              <span>Entre em contato</span>
+              <span>(31) 9579-0332</span>
+            </div>
+
           </li>
-          <li>
+          <li class="social-icons">
             <a href="#"><img src="./assests/img/github_nav_icon.svg" alt=""></a>
             <a href="#"><img src="./assests/img/linkedin_nav_icon.svg" alt=""></a>
           </li>
@@ -45,16 +48,20 @@
   <main>
     <section id="home">
       <div class="wrapper">
-        <div>
+        <div class="home-text">
           <h1>
             Ola!
             <br>
-            Sou Fabaiano
+            Sou Fabiano
             <br>
             <span>Desenvolvedor web</span>
           </h1>
           <p>
-            Tenho paixão por tecnologia e inovações digital.  Gosto de codificar coisas do zero e de dar vida às ideias no navegador.
+            Tenho paixão por tecnologia e <span>inovações digital.</span>
+            <br>
+            Gosto de codificar coisas do zero e de dar vida às
+            <br>
+            ideias no navegador.
           </p>
           <a href=""><button class="btn">Entre em contato!</button></a>
         </div>
